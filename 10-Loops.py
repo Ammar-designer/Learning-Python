@@ -80,3 +80,30 @@ for i in range(1, 6):
 else:
     print("Loop's end")
 
+
+#Pass Statement
+for i in range(1, 6): 
+    pass # Used to Avoid Syntax Error While Leaving Code Empty
+
+#Sum Of All Even Numbers And Odd Numbers
+evenNumSum = 0
+oddNumSum = 0
+allSum = 0
+for i in range(1, 101):
+    allSum += i
+    if i % 2 == 0:
+        evenNumSum += i
+    else:
+        oddNumSum += i
+print(f"Sum of All Numbers: {allSum}")
+print(f"Sum of Even Numbers: {evenNumSum}")
+print(f"Sum of Odd Numbers: {oddNumSum}")
+
+# Reversing List Using Loops
+fruits = ["apple", "banana", "cherry", "date"]
+reversedFruits = []
+for i in range(len(fruits)):
+    reversedFruits.append(fruits[(len(fruits)-1)-i])
+
+print(reversedFruits)
+    
