@@ -70,6 +70,10 @@ carList.reverse()
 print("Reversed Car List:", carList)
 print("Normal Car List:", carList[::-1])
 
+numbersList = [5, 2, 9, 1, 5, 6]
+numbersList.sort()
+print("Sorted Numbers List:", numbersList)
+
 carList.pop()
 print("Car List after Popping index 0:", carList)
 
