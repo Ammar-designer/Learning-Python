@@ -89,3 +89,13 @@ def countEvenOdd(num):
     return f"Even Numbers: {evenNum}, Odd Numbers: {oddNum}"
 
 print(countEvenOdd(103))
+
+# Create List Using Arbritrary Number Of Parameters
+def createList(*nums, requiredList = []):
+    for num in nums:
+        requiredList.append(num)
+    return requiredList
+
+print(createList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+
+     
